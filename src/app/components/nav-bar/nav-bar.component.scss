@@ -1,0 +1,9 @@
+@import "../../../styles/variables.scss";
+nav{
+    background-color: $white-color;
+    width: 180px;
+    height: 100%;
+    position: fixed;
+    left: 0;
+    border-right: 1px solid $contrast-color;
+}

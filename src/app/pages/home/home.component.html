@@ -1,0 +1,6 @@
+<app-header></app-header>
+
+<div class="cards">
+    <app-smtp-card *ngFor="let card of cards" class="card" [title]="card.title" [icon]="card.icon">
+    </app-smtp-card>
+</div>

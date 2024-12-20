@@ -1,0 +1,14 @@
+@import "../../../styles/variables.scss";
+.app-control-nav-bar{
+    display: flex;
+    gap: 12px;
+    align-items: center;
+    height: 100%;
+}
+img{
+    width: 32px;
+    height: 32px;
+}
+span{
+    color: $text-color;
+}

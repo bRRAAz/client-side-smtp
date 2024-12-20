@@ -1,0 +1,25 @@
+@import "../../../styles/variables.scss";
+.app-info-user-resume-header{
+    height: fit-content;
+    display: flex;
+    flex-direction: row;
+    gap: 5px;
+}
+.user-info{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    justify-content: center;
+    border-left: 1px solid $contrast-color;
+    padding-left: 15px;
+}
+.name{
+    color: $text-color;
+}
+.email{
+    color: $text-color;
+}
+img{
+    width: 50px;
+    height: 50px;
+}
